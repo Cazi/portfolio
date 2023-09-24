@@ -1,0 +1,9 @@
+ .style-home {
+    /* display: flex;
+    flex-direction: flex-start; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #3feee6;
+ }

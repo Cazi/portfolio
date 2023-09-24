@@ -1,0 +1,79 @@
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* box-shadow: 2px 7px 5px 10px rgba(59, 53, 53, 0.7);
+    -webkit-box-shadow: 2px 7px 5px 0px rgba(59, 53, 53, 0.7);
+    -moz-box-shadow: 2px 7px 5px 0px rgba(59, 53, 53, 0.7); */
+    background-color: #fc4445;
+    height: 10vh;
+    width: auto;
+}
+
+.navbar-left {
+    display: flex;
+    font-weight: 600;
+    font-size: 40px;
+    justify-content: flex-start;
+}
+
+.navbar-left p {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid black;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: black;
+    }
+}
+
+.navbar-left>* {
+    padding: 20px;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.navbar-right>* {
+    margin: 20px;
+    padding: 10px;
+}
+
+.navbar-right {
+    font-weight: 600;
+    font-size: 25px;
+}
