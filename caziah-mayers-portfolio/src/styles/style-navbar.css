@@ -1,13 +1,13 @@
 .navbar {
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     /* box-shadow: 2px 7px 5px 10px rgba(59, 53, 53, 0.7);
     -webkit-box-shadow: 2px 7px 5px 0px rgba(59, 53, 53, 0.7);
     -moz-box-shadow: 2px 7px 5px 0px rgba(59, 53, 53, 0.7); */
     background-color: #fc4445;
     height: 10vh;
-    width: auto;
+    width: 100vw;
 }
 
 .navbar-left {

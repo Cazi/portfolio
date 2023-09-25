@@ -11,7 +11,8 @@ const Navbar = () => {
                 <Navbutton pageName={'About'}></Navbutton>
                 <Navbutton pageName={'Projects'}></Navbutton>
                 <Navbutton pageName={'Contact'}></Navbutton>
-            </div></div>
+            </div>
+        </div>
     )
 }
 
